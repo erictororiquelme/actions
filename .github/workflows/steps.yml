@@ -18,6 +18,6 @@ jobs:
     if: true
     needs: first_job
 
-    step:
+    steps:
       - name: instalar dependencias
         run: echo "instalando dependencias..."
