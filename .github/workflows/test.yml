@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Repositorio Checkout
+      - name: Repositorio Checkout
         uses: actions/checkout@v3
 
-      -name: Configurar nodejs
+      - name: Configurar nodejs
         uses: actions/setup-node@v3
         with:
           node-version: '18'
